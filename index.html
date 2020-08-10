@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping-cart</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+           <div class="cart">
+              <div class="col-md-12 col-lg-10 mx-auto">
+                 <div id="inner">
+                    <div class="cart-item">
+                       <div class="row">
+                          <div class="col-md-7 center-item">
+                             <img src="images/product-1.png" alt="">
+                             <h5>iPhone 11 128GB Black <br><span class="price">$1259</span></h5>
+   
+                          </div>
+     
+                          <div class="col-md-5 center-item">
+                             <div class="input-group number-spinner ">
+                                <div class="btn-group btn-group-sm">
+                                   <button id="remove" class="btn btn-outline-success font-weight-bold">-</button>
+                                   <input id="text" value="0" class="btn btn-outline-success btnw">
+                                   <button id="add" class="btn btn-outline-success font-weight-bold">+</button>
+                                </div>
+                             </div>
+                            
+                             <h5 class="price p-0 mr-3">$<span id="price">0</span></h5>
+                             <img id="remove0" src="images/remove.png" alt="" class="remove-item pointer">
+                          </div>
+                       </div>
+                    </div>
+                    
+                    <div class="cart-item"> 
+                       <div class="row">
+                          <div class="col-md-7 center-item mx-auto">
+                             <img src="images/product-2.png" alt="">
+                             <h5>iPhone 11 Silicone Case - Black <br>
+                             <span class="price">$59</span></h5>
+                          </div>
+                          <div class="col-md-5 center-item">
+                             <div class="input-group number-spinner">
+                                <div class="btn-group">
+                                   <button id="remove1" class="btn btn-outline-success font-weight-bold">-</button>
+                                   <input value="0" id="text1" class="btn btn-outline-success btnw">
+                                   <button id="add1" class="btn btn-outline-success font-weight-bold">+</button>
+                                </div>
+                             </div>
+                             <h5 class="price p-0 mr-3">$<span id="price1">0</span></h5>
+                             <img id="remove2" src="images/remove.png" alt="" class="remove-item pointer">
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+  
+                 <div class="cart-item">
+                    <div class="row"> 
+  
+                       <div class="col-md-8">
+                          <h5 class="ss">Subtotal: </h5>
+                          <h5 class="ss">Tax:</h5>
+                          <h5 class="ss">Total:</h5>
+                       </div>
+  
+                       <div class="col-md-4 status">
+                          <h5 class="ss">$<span id="subtotal">0</span></h5>
+                          <h5 class="ss">$0</h5>
+                          <h5 class="ss">$<span id="total">0</span></h5>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="col-md-12 pt-4 pb-4">
+                    <button type="button" class="btn btn-success check-out">Check Out</button>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+  
+  
+     <script src="index.js"></script>
+</body>
+</html>
